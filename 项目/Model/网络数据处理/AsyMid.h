@@ -24,6 +24,7 @@ extern  NSString * const RS_TripConnection;//登陆接口
 extern NSString *const TripConnection;
 extern NSString *const FindConnection;
 extern NSString *const DetailConnection;
+extern NSString *const LogConnection;
 
 typedef void(^ConnectBlock)();
 

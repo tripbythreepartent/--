@@ -11,7 +11,6 @@
 		2D18403318D5D938006DE067 /* LeaveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D18402E18D5D938006DE067 /* LeaveViewController.m */; };
 		2D18403418D5D938006DE067 /* PhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D18403018D5D938006DE067 /* PhotoViewController.m */; };
 		2D18403518D5D938006DE067 /* TrackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D18403218D5D938006DE067 /* TrackViewController.m */; };
-		2D18403A18D5D953006DE067 /* EditLogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D18403718D5D953006DE067 /* EditLogViewController.m */; };
 		2D18403B18D5D953006DE067 /* LogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D18403918D5D953006DE067 /* LogViewController.m */; };
 		2D18403E18D5D96B006DE067 /* MapTrackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D18403D18D5D96B006DE067 /* MapTrackViewController.m */; };
 		2D18404318D5E332006DE067 /* trips_cover_date_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D18404218D5E332006DE067 /* trips_cover_date_bg.png */; };
@@ -137,6 +136,8 @@
 		551C4B9F18D67E000043CF9A /* ShareSDKiPhoneSimpleShareViewUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 551C4B6118D67DFF0043CF9A /* ShareSDKiPhoneSimpleShareViewUI.framework */; };
 		551C4BA018D67E000043CF9A /* ShareSDKShareActionSheet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 551C4B6218D67DFF0043CF9A /* ShareSDKShareActionSheet.framework */; };
 		551C4BA218D68A410043CF9A /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 551C4BA118D68A410043CF9A /* placeholder.png */; };
+		551C4BA518D6D1BC0043CF9A /* NBPerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 551C4BA318D6D1BC0043CF9A /* NBPerCell.m */; };
+		551C4BA818D6D1D70043CF9A /* EditLogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 551C4BA618D6D1D70043CF9A /* EditLogViewController.m */; };
 		7996BEBF18C6BF68002B3F94 /* IntroControll.m in Sources */ = {isa = PBXBuildFile; fileRef = 7996BEBA18C6BF68002B3F94 /* IntroControll.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		7996BEC018C6BF68002B3F94 /* IntroModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7996BEBC18C6BF68002B3F94 /* IntroModel.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		7996BEC118C6BF68002B3F94 /* IntroView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7996BEBE18C6BF68002B3F94 /* IntroView.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
@@ -200,8 +201,6 @@
 		2D18403018D5D938006DE067 /* PhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PhotoViewController.m; path = "日志/PhotoViewController.m"; sourceTree = "<group>"; };
 		2D18403118D5D938006DE067 /* TrackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TrackViewController.h; path = "日志/TrackViewController.h"; sourceTree = "<group>"; };
 		2D18403218D5D938006DE067 /* TrackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TrackViewController.m; path = "日志/TrackViewController.m"; sourceTree = "<group>"; };
-		2D18403618D5D953006DE067 /* EditLogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EditLogViewController.h; path = "日志/EditLogViewController.h"; sourceTree = "<group>"; };
-		2D18403718D5D953006DE067 /* EditLogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EditLogViewController.m; path = "日志/EditLogViewController.m"; sourceTree = "<group>"; };
 		2D18403818D5D953006DE067 /* LogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LogViewController.h; path = "日志/LogViewController.h"; sourceTree = "<group>"; };
 		2D18403918D5D953006DE067 /* LogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LogViewController.m; path = "日志/LogViewController.m"; sourceTree = "<group>"; };
 		2D18403C18D5D96B006DE067 /* MapTrackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MapTrackViewController.h; path = "日志/MapTrackViewController.h"; sourceTree = "<group>"; };
@@ -379,6 +378,10 @@
 		551C4B6118D67DFF0043CF9A /* ShareSDKiPhoneSimpleShareViewUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShareSDKiPhoneSimpleShareViewUI.framework; sourceTree = "<group>"; };
 		551C4B6218D67DFF0043CF9A /* ShareSDKShareActionSheet.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShareSDKShareActionSheet.framework; sourceTree = "<group>"; };
 		551C4BA118D68A410043CF9A /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder.png; sourceTree = "<group>"; };
+		551C4BA318D6D1BC0043CF9A /* NBPerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBPerCell.m; sourceTree = "<group>"; };
+		551C4BA418D6D1BC0043CF9A /* NBPerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBPerCell.h; sourceTree = "<group>"; };
+		551C4BA618D6D1D70043CF9A /* EditLogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditLogViewController.m; sourceTree = "<group>"; };
+		551C4BA718D6D1D70043CF9A /* EditLogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditLogViewController.h; sourceTree = "<group>"; };
 		7996BEB918C6BF68002B3F94 /* IntroControll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroControll.h; sourceTree = "<group>"; };
 		7996BEBA18C6BF68002B3F94 /* IntroControll.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroControll.m; sourceTree = "<group>"; };
 		7996BEBB18C6BF68002B3F94 /* IntroModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroModel.h; sourceTree = "<group>"; };
@@ -942,8 +945,10 @@
 		7996BEAE18C6B128002B3F94 /* 我的旅行日志 */ = {
 			isa = PBXGroup;
 			children = (
-				2D18403618D5D953006DE067 /* EditLogViewController.h */,
-				2D18403718D5D953006DE067 /* EditLogViewController.m */,
+				551C4BA618D6D1D70043CF9A /* EditLogViewController.m */,
+				551C4BA718D6D1D70043CF9A /* EditLogViewController.h */,
+				551C4BA318D6D1BC0043CF9A /* NBPerCell.m */,
+				551C4BA418D6D1BC0043CF9A /* NBPerCell.h */,
 				2D18403818D5D953006DE067 /* LogViewController.h */,
 				2D18403918D5D953006DE067 /* LogViewController.m */,
 				7996BEE218C7186B002B3F94 /* 留言照相轨迹 */,
@@ -1261,7 +1266,6 @@
 				2DCEDDB918D36A630028668B /* JoinViewController.m in Sources */,
 				2DCEDD4B18D364AD0028668B /* MJRefreshBaseView.m in Sources */,
 				2DCEDD4818D364AD0028668B /* FindViewController.m in Sources */,
-				2D18403A18D5D953006DE067 /* EditLogViewController.m in Sources */,
 				2DCEDD7A18D366B60028668B /* NSData+ImageContentType.m in Sources */,
 				2DCEDD8618D366B60028668B /* UIImageView+WebCache.m in Sources */,
 				2DCEDD4918D364AD0028668B /* MapViewController.m in Sources */,
@@ -1272,9 +1276,11 @@
 				7996BEBF18C6BF68002B3F94 /* IntroControll.m in Sources */,
 				2DCEDD4418D364AD0028668B /* DetailFirstCell.m in Sources */,
 				2DCEDDBD18D36A630028668B /* MessageViewController.m in Sources */,
+				551C4BA818D6D1D70043CF9A /* EditLogViewController.m in Sources */,
 				2DCEDDC618D36A630028668B /* ShareViewController.m in Sources */,
 				2DCEDD7C18D366B60028668B /* SDWebImageCompat.m in Sources */,
 				2DCEDD8418D366B60028668B /* UIImage+MultiFormat.m in Sources */,
+				551C4BA518D6D1BC0043CF9A /* NBPerCell.m in Sources */,
 				2DCEDDBF18D36A630028668B /* MyCell.m in Sources */,
 				7997F9F218C84A5900255BB9 /* AFHTTPRequestOperation.m in Sources */,
 				2DCEDD8518D366B60028668B /* UIImage+WebP.m in Sources */,

@@ -14,6 +14,7 @@ NSString *const FindConnection = @"http://api.breadtrip.com/feeds/around/";
 NSString *const DetailConnection = @"http://api.breadtrip.com/trips/";
 NSString * const HS_TripConnection = @"http://api.breadtrip.com/accounts/signup/";
 NSString *const RS_TripConnection = @"http://api.breadtrip.com/accounts/login/";
+NSString *const LogConnection = @"http://api.breadtrip.com/feeds/grouped/";
 
 @implementation AsyMid
 
