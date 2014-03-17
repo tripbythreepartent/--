@@ -9,7 +9,14 @@
 #import "FindCell.h"
 
 @implementation FindCell
-
+- (void)dealloc
+{
+    [_cellImages release];
+    [_timeLabel release];
+    [_positionLabel release];
+    [_messageLabel release];
+    [super dealloc];
+}
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
 {
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
